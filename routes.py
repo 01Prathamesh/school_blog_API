@@ -1,6 +1,6 @@
 # routes.py
 from fastapi import APIRouter, HTTPException
-from .database import db
+from school_blog.database import db # type: ignore
 from .models import BlogPost
 import datetime
 from bson import ObjectId

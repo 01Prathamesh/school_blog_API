@@ -1,6 +1,6 @@
 # main.py
 from fastapi import FastAPI
-from routes import router
+from school_blog.routes import router # type: ignore
 
 app = FastAPI()
 
