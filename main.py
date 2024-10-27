@@ -8,4 +8,4 @@ app.include_router(router)
 
 @app.get("/")
 async def read_root():
-    return {"message": "Welcome to the School Blog API"}
+    return {"message": "Welcome to the School Blog API Created by Prathamesh Kasar"}
