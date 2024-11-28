@@ -11,17 +11,16 @@ This project is a simple blog API for a school, built using FastAPI and MongoDB 
 
 ## Project Structure
 
-school_blog/
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── database.py
-│   └── routes.py
-├── requirements.txt
-└── README.md
-
+    school_blog/
+    ├── __pycache__/             # Compiled Python files
+    ├── screenshot/              # Directory containing screenshots of the API documentation
+    ├── venv/                    # Virtual environment for the project
+    ├── main.py                  # Main FastAPI application file
+    ├── models.py                # Defines Pydantic models for data validation
+    ├── database.py              # Handles MongoDB connections and interactions
+    └── routes.py                # API route definitions
+    ├── requirements.txt         # Lists required Python packages
+    └── README.md                # Project documentation
 
 ## Technologies Used
 
@@ -123,7 +122,15 @@ school_blog/
 Here are some screenshots of the FastAPI Swagger UI:
 
 ![Swagger UI](./ScreenShot/1.png)
+
+
 ![Swagger UI](./ScreenShot/2.png)
+
+
 ![Swagger UI](./ScreenShot/3.png)
+
+
 ![Swagger UI](./ScreenShot/4.png)
+
+
 ![Swagger UI](./ScreenShot/5.png)
