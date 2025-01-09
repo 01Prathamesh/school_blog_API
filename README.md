@@ -40,7 +40,7 @@ This project is a simple blog API for a school, built using FastAPI and MongoDB 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/01Prathamesh/school_blog.git
+    git clone https://github.com/01Prathamesh/school_blog_API.git
     cd school_blog
     ```
 
